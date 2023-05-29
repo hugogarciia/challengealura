@@ -1,0 +1,237 @@
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+#_bg__logo {
+	margin: 15px 0 0 25px;
+	width: 120px;
+	height: 48px;
+ }
+#fondo {
+	position: relative;
+	z-index: ;
+	width: 99%;
+	-ms-border-radius: 32px;
+	-o-border-radius: 32px;
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border-radius: 32px;
+	-ms-box-shadow:0px 24px 32px 1px rgba(0,0,0,0.5);
+	-o-box-shadow:0px 24px 32px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0px 24px 32px 1px rgba(0,0,0,0.5);
+	-moz-box-shadow:0px 24px 32px 1px rgba(0,0,0,0.5);
+	box-shadow:0px 24px 32px 1px rgba(0,0,0,0.8);
+	background:#d6d9ff;
+	margin: 1%;
+}
+
+.acodificar {
+	min-height: 80vh;
+}
+
+
+#mensaje {
+	margin:5% 0;
+	padding: 3%;
+	width: 85vw;
+	height: 62vh;
+	overflow: scroll auto;
+	overflow-x: hidden;
+	font-family: inter;
+	font-size: 1.7rem;
+	font-weight: bolder;
+	text-transform: lowercase;
+	text-align: center;
+	line-height: 1em;
+	color:#0A3871;
+	background:#d6d9ff;
+	resize: none;
+	outline: none;
+	border: 0;
+}
+			
+	::placeholder {
+		vertical-align: middle;
+		text-transform: initial;
+		font-family: inter;
+		font-weight: bolder;
+		text-align: center;
+		line-height: 2rem;
+		padding: 30% 10% 0;
+		color:#0A3871;
+	}
+
+.advertencia{
+	display: flex;
+	font-style: normal;
+	font-weight: ;
+	font-size: 1.3em;
+	color: #495057;
+	line-height: ;
+	margin: 0 0 0 7%;
+	align-items: center;
+}
+	#vector{
+		width: 16px;
+		height: 16px;
+		margin: 0;
+	}
+
+	.aviso{
+		margin: 0;
+	}
+
+#muneco{
+	display: none;
+}
+
+.botonera{
+	display: flex;
+	flex-direction: column;
+}
+
+
+	.actionButton{
+		position: relative;
+		width: 80%;
+		-ms-border-radius: 24px;
+		-o-border-radius: 24px;
+		-moz-border-radius: 24px;
+		-webkit-border-radius: 24px;
+		border-radius: 24px;
+		overflow: hidden;
+		font-size: 1.4em;
+		text-align: center;
+		margin: 1% auto;
+	}
+
+#buttonenc {
+	
+	background:rgba(10,56,113,1);
+	color:#FFFFFF;
+}
+	#buttonenc:hover{
+	    
+	}
+	#buttonenc:active{
+	    background:#44c4f7;
+	    -ms-box-shadow:1px 1px 10px 1px #1a89b5;
+		-o-box-shadow:1px 1px 10px 1px #1a89b5;
+		-webkit-box-shadow:1px 1px 10px 1px #1a89b5;
+		-moz-box-shadow:1px 1px 10px 1px #1a89b5;
+	    box-shadow:1px 1px 30px 5px #1a89b5;
+	    transition: 0.1s;
+	}
+
+#dbutton {
+    background:rgba(216,223,232,1);
+    color:#0A3871;
+}
+	#dbutton:hover{
+	    
+	}
+	#dbutton:active{
+	    background:#a5a5a5;
+	    -ms-box-shadow:10px 10px 10px 1px #d8f2fd;
+	    -o-box-shadow:10px 10px 10px 1px #d8f2fd;
+	    -webkit-box-shadow:10px 10px 10px 1px #d8f2fd;
+	    -moz-box-shadow:10px 10px 10px 1px #d8f2fd;
+	    box-shadow:1px 1px 30px 5px #1a5268;
+	}
+
+.rectangle{
+	position: relative;
+}
+
+#encriptado {
+    width: 87%;
+    height: 15rem ;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+    text-align: center;
+    font-size: 1.3em;
+    overflow-y: scroll auto;
+    overflow-x: hidden;
+    resize: none;
+    word-wrap: break-word;
+    color: #0A3871;
+    margin: auto;
+    padding: 12px 16px;
+    display: none;
+}
+
+
+#sin_mensaje {
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	color:#343A40;
+	margin: 0 0 0 2%;
+}
+
+#aclaracion {
+    
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    font-size: 1.3em;
+    text-align: center;
+    color: #495057;
+    margin: 0 auto 20%;
+}
+
+#t_enc {
+    display: none;
+    font-size: 1.3em;
+    color: #0A3871;
+    font-weight: bold;
+    margin: 3%;
+}
+
+.copyreset {
+    display: none;
+    width: 100px;
+    height: 18px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    background: rgba(10,56,113,1);
+    overflow: hidden;
+    font-size: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 5% 0  ;
+}
+	.copyreset:hover{
+	    background:#44c4f7;
+	    -ms-box-shadow:1px 1px 10px 1px #1a89b5;
+		-o-box-shadow:1px 1px 10px 1px #1a89b5;
+		-webkit-box-shadow:1px 1px 10px 1px #1a89b5;
+		-moz-box-shadow:1px 1px 10px 1px #1a89b5;
+	    box-shadow:1px 1px 30px 5px #1a89b5;
+	}
+	.copyreset:active{
+	    background:#1780aa;
+	}
+
+.botonesExtra{
+	display: flex;
+	margin: 3% 0 3% 10%;
+}
+
+
+	
+
